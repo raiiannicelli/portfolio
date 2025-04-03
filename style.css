@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #222;
+}
+
+h2 {
+    color: #555;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills-list span {
+    background-color: #ddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects h3 {
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 250px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.project p {
+    font-size: 14px;
+    color: #666;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h3 {
+    font-size: 22px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
